@@ -17,9 +17,8 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .smolfont {
@@ -185,8 +184,73 @@
     font-weight: 700;
 }
 
-.jharbatti{
+.jharbatti {
     border: 10px solid red;
     border-radius: 360px;
     padding: 15px;
+}
+
+.functional {
+    text-align: center;
+    margin: 0px 140px 65px 140px;
+    padding: 0px 125px;
+}
+
+.function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.holiday {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.function-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.image-part {
+    display: flex;
+    background-image: url('../Resources/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    margin: 65px 140px 65px 140px;
+    justify-content: space-between;
+}
+
+.discount-div {
+    background-image: url('../Resources/Rectangle1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 15px;
+    background-size: 430px 388px;
+}
+.baksho {
+}
+
+.discount {
+    margin-right: 275px;
+    margin-top: 75px;
 }
