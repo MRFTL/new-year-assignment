@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
 
+body {
+    /* to remove footer's default margin */
+    margin: 0;
+}
+
 .first-item {
     text-align: center;
     font-family: Merriweather;
@@ -257,6 +262,77 @@
     text-align: left;
     margin: 120px 140px;
 }
+
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0px 140px 120px 140px;
+    border: none;
+    text-align: center;
+    padding: 80px 210px;
+}
+
+.newsletter-button {
+    display: flex;
+    margin: 10px 335px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.field {
+    width: 440px;
+    height: 70px;
+    padding-left: 20px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+}
+
+.button {
+    text-align: center;
+    width: 210px;
+    height: 70px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+
+.subscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 55px;
+}
+
+footer {
+    padding: 120px 140px;
+    background: #070211;
+}
+
+.address-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-des {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.socials{
+    margin: 50px auto;
+    padding: 0px 630px;
+}
+
+.end-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* id starts here */
 
 #ves-des {
